@@ -1,6 +1,8 @@
 @use 'hero';
 @use 'components/infos_bar';
 @use 'components/buttons';
+@use 'event';
+@use 'vars';
 
 
 *{
@@ -8,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif ;
-    color: #fff;
+    color: vars.$textColor;
     list-style: none;
 }
 
@@ -21,7 +23,7 @@
         width: 80%;
     }
 
-    @media (min-width: 1024px){
+    @media (max-width: 1024px){
         max-width: 90%;
     }
 }

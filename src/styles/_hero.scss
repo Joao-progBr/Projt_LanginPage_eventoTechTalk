@@ -1,3 +1,6 @@
+
+@use 'vars';
+
 .hero{
     padding-top: 64px;
     padding-bottom: 100px;
@@ -18,7 +21,7 @@
         width: 100%;
         height: 100%;
         // background-color: rgba(0 , 0, 0, .3);
-        background-color: #000;
+        background-color: vars.$textColordark;
         opacity: .7;
     }
 

@@ -7,44 +7,118 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Evento</title>
 
 </head>
 <body>
 
    <header class="hero">
-    <div class="container">
-        <img class="hero__logo" src="./images/ebac_logo.svg" alt="Logo EBAC">
-        <p class="hero__text">
-            O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
-        </p>
-        <div class="infos-bar">
-            <ul class="infos-bar__infos">
-                <li class="infos-bar__infos__item">
-                    <b>Localização</b>
-                    Allianz Parque - Barra Funda - São Paulo
-                </li>
-                <li class="infos-bar__infos__item">
-                    <b>Preço</b>
-                    A partir de R$ 120,00
-                </li>
-                <li class="infos-bar__infos__item">
-                    <b>Quando</b>
-                    12/02/2025 ás 19hrs
-                </li>
-            </ul>
-            <a href="#" class="button button--primary">
-                Garanta sua vaga
-            </a>
+        <div class="container">
+            <img class="hero__logo" src="./images/ebac_logo.svg" alt="Logo EBAC">
+            <p class="hero__text">
+                O maior evento de tecnologia do Brasil começa em 10d 12h 20m 15s
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Allianz Parque - Barra Funda - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        A partir de R$ 120,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        12/02/2025 ás 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Garanta sua vaga
+                </a>
+            </div>
         </div>
-    </div>
    </header>
+   <section class="event event--front-end">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Front-end</h2>
+                <p class="event__details__description">
+                    Participe do evento definitivo para apaixonados por 
+                    front-end! Explore workshops práticos de HTML, CSS e JavaScript, 
+                    assista a palestras com especialistas renomados e conecte-se 
+                    com profissionais e empresas da área. Amplie seus conhecimentos, 
+                    descubra tendências modernas e destaque-se no mercado de 
+                    desenvolvimento web. Garanta já sua vaga e transforme sua 
+                    paixão em realidade!
+                </p>
+            </div>
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
+        </div>
+   </section>
+   <section class="event event--ui-ux event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">UI/UX</h2>
+                <p class="event__details__description">
+                    Participe do evento essencial para entusiastas de UI/UX! 
+                    Descubra workshops interativos sobre design de interfaces e 
+                    experiência do usuário, assista a palestras inspiradoras com 
+                    especialistas e conecte-se com profissionais da área. 
+                    Aprenda tendências modernas, ferramentas práticas e técnicas 
+                    para criar projetos que encantam usuários. Garanta sua vaga e 
+                    leve suas habilidades em design ao próximo nível!
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="Ui/Ux">
+        </div>
+    </section>
+    <section class="event event--data-science">
+        <div class="container"  data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Data-Science</h2>
+                <p class="event__details__description">
+                    Participe do evento imperdível de Data Science! 
+                    Explore workshops práticos sobre análise de dados, 
+                    machine learning e visualização, assista a palestras com 
+                    especialistas renomados e conecte-se com profissionais do setor. 
+                    Aprenda as tendências mais modernas, ferramentas essenciais e 
+                    técnicas avançadas para transformar dados em insights poderosos.
+                    Garanta sua vaga e leve sua carreira em ciência de dados ao 
+                    próximo nível!
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="Data-Science">
+        </div>
+    </section>
+    <section class="event event--back-end event--image-left">
+        <div class="container"  data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">
+                    Participe do evento essencial para desenvolvedores back-end! 
+                    Mergulhe em workshops práticos sobre criação de APIs, 
+                    bancos de dados e arquitetura de sistemas, além de palestras 
+                    com especialistas que dominam as tecnologias mais modernas. 
+                    Descubra ferramentas, boas práticas e estratégias para criar 
+                    soluções robustas e escaláveis. Conecte-se com profissionais 
+                    da área e leve suas habilidades de back-end ao próximo nível. 
+                    Garanta sua vaga e impulsione sua carreira no desenvolvimento 
+                    web!
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="Back-end">
+        </div>
+   </section>
 
 
 
 
 
 
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
     
 </body>
